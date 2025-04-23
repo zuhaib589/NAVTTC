@@ -7,6 +7,9 @@
 a = 36;
 b = 5;
 
+console.log(a);
+
+
 // sum
 
 // sum=a+b
@@ -59,8 +62,9 @@ b = 5;
 
 // FOR LOOP
 
-for(let i=0; i<10; i++)
-    console.log(i+1);
+// let noi="zuhaib";
+// for(let i=0; i<noi.length; i++)
+//     console.log(i,noi[i]);
 
 // WHILE LOOP 
 
@@ -73,17 +77,47 @@ for(let i=0; i<10; i++)
 
 // DO while
 
-let i=1
+// let i=1
 
-do{
-    console.log("zuhaib");
+// do{
+//     console.log("zuhaib"); 
+// }
+// while(i==5)
     
-}
-while(i<0)
-    
+
+// for of loop best for strings 
+
+// const namee="zuhaib zafar"
+// for (let x of namee){
+//     console.log(x);
+// }
+
+// for in loop best for objects 
+
+// const object={
+//     name:"zain",
+//     age:20,
+//     city:"FSD"
+// }
+// for (let x in object){
+//     console.log(x ,object[x]);
+// }
+
+// let i = 5;
+
+// for (let i = 0; i < 10; i++) {
+// 		console.log(i)
+// }
+// console.log("After loop ");
+
+// console.log(i);
+
+// wen we use variable as var scope it will change globally but when we do it with let it will only work in local/block 
 
 
 
+arr=[1,2,3,"zi"]
+console.log(arr);
 
 
 
