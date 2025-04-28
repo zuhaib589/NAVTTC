@@ -60,13 +60,13 @@
 
 // LOOPS
 
-// FOR LOOP
+// // FOR LOOP
 
 // let noi="zuhaib";
 // for(let i=0; i<noi.length; i++)
 //     console.log(i,noi[i]);
 
-// WHILE LOOP 
+// // WHILE LOOP 
 
 // a=0
 // while(a<=5){
@@ -75,24 +75,24 @@
 // }
 
 
-// DO while
+// // DO while
 
-// let i=1
+// let x=1
 
 // do{
 //     console.log("zuhaib"); 
 // }
-// while(i==5)
+// while(x==5)
     
 
-// for of loop best for strings 
+// // for of loop best for strings 
 
 // const namee="zuhaib zafar"
 // for (let x of namee){
 //     console.log(x);
 // }
 
-// for in loop best for objects 
+// // for in loop best for objects 
 
 // const object={
 //     name:"zain",
