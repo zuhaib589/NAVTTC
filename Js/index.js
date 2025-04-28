@@ -119,32 +119,32 @@
 
 // conditional statement 
 
-var marks = prompt("Write your Number ")
+// var marks = prompt("Write your Number ")
 
-console.log("You Entered", marks);
+// console.log("You Entered", marks);
 
 
-if (marks < 0 || marks > 100) {
-    console.log("Invalid marks");
-}
- else if (marks < 50) {
-    console.log("Fail");
-} 
-else if (marks >= 50 && marks < 60) {
-    console.log("Grade: D");
-} 
-else if (marks >= 60 && marks < 70) {
-    console.log("Grade: C");
-} 
-else if (marks >= 70 && marks < 80) {
-    console.log("Grade: B");
-}
- else if (marks >= 80 && marks < 90) {
-    console.log("Grade: A");
-} 
-else if (marks >= 90 && marks <= 100) {
-    console.log("Grade: A+");
-}
+// if (marks < 0 || marks > 100) {
+//     console.log("Invalid marks");
+// }
+//  else if (marks < 50) {
+//     console.log("Fail");
+// } 
+// else if (marks >= 50 && marks < 60) {
+//     console.log("Grade: D");
+// } 
+// else if (marks >= 60 && marks < 70) {
+//     console.log("Grade: C");
+// } 
+// else if (marks >= 70 && marks < 80) {
+//     console.log("Grade: B");
+// }
+//  else if (marks >= 80 && marks < 90) {
+//     console.log("Grade: A");
+// } 
+// else if (marks >= 90 && marks <= 100) {
+//     console.log("Grade: A+");
+// }
 
 // num1=12
 // num2=90
