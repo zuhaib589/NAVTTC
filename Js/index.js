@@ -4,10 +4,10 @@
 
 // // Arithmetic Operators + - * % / **
 
-a = 36;
-b = 5;
+// a = 36;
+// b = 5;
 
-console.log(a);
+// console.log(a);
 
 
 // sum
@@ -55,7 +55,6 @@ console.log(a);
 
 
 // conditional statement 
-
 
 
 // LOOPS
@@ -116,8 +115,86 @@ console.log(a);
 
 
 
-arr=[1,2,3,"zi"]
-console.log(arr);
+// arr=[1,2,3,"zi"]
+// console.log(arr);
 
 
 
+// var marks = prompt("Write your Number ")
+
+// console.log("You Entered", marks);
+
+
+// if (marks < 0 || marks > 100) {
+//     console.log("Invalid marks");
+// }
+//  else if (marks < 50) {
+//     console.log("Fail");
+// } 
+// else if (marks >= 50 && marks < 60) {
+//     console.log("Grade: D");
+// } 
+// else if (marks >= 60 && marks < 70) {
+//     console.log("Grade: C");
+// } 
+// else if (marks >= 70 && marks < 80) {
+//     console.log("Grade: B");
+// }
+//  else if (marks >= 80 && marks < 90) {
+//     console.log("Grade: A");
+// } 
+// else if (marks >= 90 && marks <= 100) {
+//     console.log("Grade: A+");
+// }
+
+// num1=12
+// num2=90
+
+// console.log(num1>num2 ? num1 : num2);
+
+
+// Table using for loop 
+
+// var num = prompt("Enter table number")
+// var len = prompt("Enter table length ")
+
+// for (i=1; i <=len; i++){
+//     console.log(`${num} x ${i} = ${num * i}`)
+// }
+
+// var even=0
+// var odd = 0
+// for(let i = 1; i<=20; i ++){
+//     if(i %2 == 0){
+//         even = i + even 
+//     }
+//    else{
+//     odd = i + odd
+//    }
+// }
+// console.log(even);
+// console.log(odd);
+
+// for( var i=100; i>=1; i--){
+// console.log(i);
+// }
+
+
+// *
+// **
+// ***
+// ****
+// *****   Design a pattern
+
+let Staric= "";
+for (let i =5 ; i>=1; i--)
+    {
+        console.log(Staric = Staric + "*"); 
+        console.log(Staric = Staric + "*"); 
+    }
+
+//  FUNCTIONS
+
+function name(params) {
+    
+}
