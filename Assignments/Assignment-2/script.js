@@ -22,16 +22,54 @@
         // 3) Write a program to find the largest of three numbers.
 
        
-let num1 =  prompt("Enter Number 1 : ")      
-let num2 =  prompt("Enter Number 2 : ")      
-let num3 =  prompt("Enter Number 3 : ")      
+// let a = -10    
+// let b = -4         
+// let c = -100        
 
-if( num1 > num2 && num1 > num3){
-    console.log("Number 1 is largest")
-}
-else if (num2 > num1 && num2> num3 ){
-    console.log("Number 2 is largest ");
-}
-else{
-    console.log("Number 3 is largest ");
+// if( a > b && a > c){
+//     console.log("Number 1 is largest", a)
+// }
+// else if (b > a && b> c ){
+//     console.log("Number 2 is largest ",b);
+// }
+// else{
+//     console.log("Number 3 is largest ",c);
+// }
+
+        // 4) Write a program to assign a grade based on marks obtained:[Use Switch Statement]
+        // A for marks >= 90
+        // B for marks >= 80
+        // C for marks >= 70
+        // D for marks >= 60
+        // F for marks < 60
+
+
+// let num= prompt("Enter Number : ")
+
+// if (num < 0 || num > 100 ){
+//    console.log("Please Write correct number (0-100)  ")
+//    }
+// else if (num >= 90) {
+//    console.log("You Got A Grade Congrats!! ")
+//    }
+// else if (num >=80 && num <90) {
+//    console.log("You Got A Grade Congrats!! ")
+//    }
+// else if (num >=70 && num <80) {
+//     console.log("You Got C Grade Congrats!! ")
+//     }
+// else if (num >=60 && num <70) {
+//         console.log("You Got D Grade Congrats!! ")
+//         }  
+//  else{
+//     console.log("you failed !!");
+    
+//  }            
+
+        // 5) Write a program to check if a given character is a vowel or a consonant.
+
+let cahra= prompt("Please enter a character ")
+
+if (cahra.length() !== 1){
+
 }
