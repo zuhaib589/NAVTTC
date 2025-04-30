@@ -1,4 +1,4 @@
-        // 1) Write a program to check if a number is positive, negative, or zero.
+// 1) Write a program to check if a number is positive, negative, or zero.
 
 // let num=prompt("Enter Number : ")
 
@@ -12,19 +12,17 @@
 //     console.log("Number is Zero ")
 // }
 
-
-        // 2) Write a program to check if a number is even or odd.
+// 2) Write a program to check if a number is even or odd.
 
 // let num = prompt("Enter Number : ")
 // let res = num % 2 == 0 ? "Even" : "Odd"
 // console.log(res)
 
-        // 3) Write a program to find the largest of three numbers.
+// 3) Write a program to find the largest of three numbers.
 
-       
-// let a = -10    
-// let b = -4         
-// let c = -100        
+// let a = -10
+// let b = -4
+// let c = -100
 
 // if( a > b && a > c){
 //     console.log("Number 1 is largest", a)
@@ -36,13 +34,12 @@
 //     console.log("Number 3 is largest ",c);
 // }
 
-        // 4) Write a program to assign a grade based on marks obtained:[Use Switch Statement]
-        // A for marks >= 90
-        // B for marks >= 80
-        // C for marks >= 70
-        // D for marks >= 60
-        // F for marks < 60
-
+// 4) Write a program to assign a grade based on marks obtained:[Use Switch Statement]
+// A for marks >= 90
+// B for marks >= 80
+// C for marks >= 70
+// D for marks >= 60
+// F for marks < 60
 
 // let num= prompt("Enter Number : ")
 
@@ -60,16 +57,71 @@
 //     }
 // else if (num >=60 && num <70) {
 //         console.log("You Got D Grade Congrats!! ")
-//         }  
+//         }
 //  else{
 //     console.log("you failed !!");
-    
-//  }            
+
+//  }
 
         // 5) Write a program to check if a given character is a vowel or a consonant.
 
-let cahra= prompt("Please enter a character ")
+// let chara = prompt("Please enter a character ").toLowerCase();
 
-if (cahra.length() !== 1){
+// if (chara.length !== 1 || /^[0-9]$/.test(chara)) {
+//   console.log("Please write single Alphabet character !!");
+// } else if (
+//   chara == "a" ||
+//   chara == "e" ||
+//   chara == "i" ||
+//   chara == "o" ||
+//   chara == "u"
+// ) {
+//   console.log("The given character is vowel");
+// } else {
+//   console.log("consonant");
+// }
 
-}
+        // 6) Write a program to check if a person is eligible to vote based on their age (must be 18 or older).
+
+// let age=prompt("Enter Your age : ")       
+
+// let res = (age >= 18)? "Eligible to vote" : "Not Eligible to vote"
+// console.log(res);
+
+        //7) Write a program to check if a given number is a multiple of 5.[Value Getting from Prompt].
+
+// let num=prompt("Enter Number : ")
+// let res = (num % 5 == 0)? "Multiple of 5 ": " Not a Multilple of 5";
+// console.log(res);
+
+        //8) Write a program to check if a given character is an uppercase letter, lowercase letter, digit, or a special character.
+
+
+// let char = prompt("Enter a single character:");
+
+// if ( char.length !== 1) {
+//     console.log("Please enter exactly one character.");
+// } else if (/[A-Z]/.test(char)) {
+//     console.log("Uppercase letter");
+// } else if (/[a-z]/.test(char)) {
+//     console.log("Lowercase letter");
+// } else if (/[0-9]/.test(char)) {
+//     console.log("Digit");
+// } else {
+//     console.log("Special character");
+// }
+
+
+        // 11) Write a program to print numbers from 10 to 1 Reverse Order using a while loop.
+
+ 
+// let num=10
+
+// while(num > 0){
+//     console.log(num);
+//     num--    
+// }    
+
+        // 2) Write a program to print the first 10 even numbers using a while loop.
+ 
+        
