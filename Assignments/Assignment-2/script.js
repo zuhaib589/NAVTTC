@@ -15,7 +15,7 @@
         // 2) Write a program to check if a number is even or odd.
 
 // let num = prompt("Enter Number : ")
-// let res = num % 2 == 0 ? "Even" : "Odd"
+// let res = num % 2 == 0 ? "Number is Even" : "Number is Odd"
 // console.log(res)
 
         // 3) Write a program to find the largest of three numbers.
@@ -150,12 +150,12 @@
 // let num=0
 // var sum=0
 // while(num<=50){
-//         if(num %2 !=0){
+//         if(num %2 != 0){
 //               sum = sum + num  
 //         }
 //         num++
 // }
-// console.log("The sum of first ten natural number is =", sum);
+// console.log("The sum of odd number between 1 to 50 is =", sum);
 
 
         // 13) Write a program to count the number of vowels in a given string using a while loop.
@@ -165,12 +165,11 @@
 // let count =0
 // while (x < str.length){
 //         if(/[aeiou]/i.test(str[x])){
-
 //                 count++
 //         }
 //      x++   
 // }
-// console.log(  ` The total number of vowels in your string [${str} ] is:`,count);
+// console.log(`The total number of vowels in your string [${str}] is:`,count);
 
 
 /* --------------------- Combined Concept (Operatore + IF-Else + For Loop)---------------------*/
@@ -188,6 +187,21 @@
 
 
         // 15)Write a program to count the number of digits in a given number using a while loop.
+
+//  let num=1234
+//  let count=0
+
+// if (num === 0){
+//         count=1
+// }
+// else{   
+//         while (num > 0 ){
+//            num = parseInt(num/10)
+//            count++      
+// }
+
+// }
+// console.log("The number of digit in given number is :" , count );
 
 
 
@@ -222,3 +236,29 @@
 
 
         // 18) Write a program that display largest integer among 10 Integers.
+
+// const list=[1,2,3,44,55,66,27,81,90,100]        
+// let largest = list[0]
+// let i = 0
+// while(i < list.length){
+//         if (list[i] > largest){
+//                 largest = list[i]
+//         }
+//         i++
+// }
+// console.log((largest));
+
+                                // Method 2 
+
+// let largest=0
+// let i = 1
+// while(i <= 10){
+//         let num = parseInt(prompt("Enter Number :"))
+//         if (num > largest){
+//                 largest = num
+//         }
+// console.log("Number you entered : ", num );
+// i++
+// }
+// console.log("The largest number you entered is :",largest);
+
