@@ -1,4 +1,4 @@
-// 1) Write a program to check if a number is positive, negative, or zero.
+        // 1) Write a program to check if a number is positive, negative, or zero.
 
 // let num=prompt("Enter Number : ")
 
@@ -12,13 +12,13 @@
 //     console.log("Number is Zero ")
 // }
 
-// 2) Write a program to check if a number is even or odd.
+        // 2) Write a program to check if a number is even or odd.
 
 // let num = prompt("Enter Number : ")
 // let res = num % 2 == 0 ? "Even" : "Odd"
 // console.log(res)
 
-// 3) Write a program to find the largest of three numbers.
+        // 3) Write a program to find the largest of three numbers.
 
 // let a = -10
 // let b = -4
@@ -34,7 +34,8 @@
 //     console.log("Number 3 is largest ",c);
 // }
 
-// 4) Write a program to assign a grade based on marks obtained:[Use Switch Statement]
+        // 4) Write a program to assign a grade based on marks obtained:[Use Switch Statement]
+
 // A for marks >= 90
 // B for marks >= 80
 // C for marks >= 70
@@ -112,7 +113,7 @@
 // }
 
 
-        // 11) Write a program to print numbers from 10 to 1 Reverse Order using a while loop.
+        // 9) Write a program to print numbers from 10 to 1 Reverse Order using a while loop.
 
  
 // let num=10
@@ -122,6 +123,102 @@
 //     num--    
 // }    
 
-        // 2) Write a program to print the first 10 even numbers using a while loop.
+        // 10) Write a program to print the first 10 even numbers using a while loop.
  
-        
+// var num=0
+//         while (num <= 20){
+//            if(num %2 == 0){
+//                 console.log(num);       
+//            }  
+//            num++      
+//         }
+
+
+        // 11) Write a program to find the sum of the first 10 natural numbers using a while loo        
+
+//    let num = 1  
+//    var count = 0 
+//    while(num <=10){
+//         count = count + num 
+//         num ++
+//    }
+//    console.log("The sum of first ten natural number is =",count);
+   
+
+        // 12) Write a program to print the sum of all odd numbers between 1 and 50 using a while loop.
+
+// let num=0
+// var sum=0
+// while(num<=50){
+//         if(num %2 !=0){
+//               sum = sum + num  
+//         }
+//         num++
+// }
+// console.log("The sum of first ten natural number is =", sum);
+
+
+        // 13) Write a program to count the number of vowels in a given string using a while loop.
+
+// let str="Hi my name is zuhaib zafar"
+// let x=0
+// let count =0
+// while (x < str.length){
+//         if(/[aeiou]/i.test(str[x])){
+
+//                 count++
+//         }
+//      x++   
+// }
+// console.log(  ` The total number of vowels in your string [${str} ] is:`,count);
+
+
+/* --------------------- Combined Concept (Operatore + IF-Else + For Loop)---------------------*/
+
+        // 14) Write a program to find the sum of all even numbers between 1 and 100 using a while loop.
+
+// let i =0
+// let sum=0
+// while(i <= 100){
+//         if(i %2 == 0){
+//                 sum +=i
+//         }
+//        i++ 
+// }console.log(sum);
+
+
+        // 15)Write a program to count the number of digits in a given number using a while loop.
+
+
+
+
+        //16) Write a program to check if a given number is a palindrome using a while loop and if-else statements.
+
+// let str="mom"
+// let str1=""
+// let i = str.length-1
+// while(i >=  0 ){
+//         str1 += str[i]
+//         i--
+// }
+//  if(str1 === str){
+//         console.log("Yes the given string is palindrome " , str1); 
+//  }else{
+//         console.log("No the given string is not palindrome " , str1); 
+//  }
+ 
+
+        // 17) Write a program to print the reverse of a string using a while loop.
+
+
+// let str="zuhaib"
+// let str1=""
+// let i = str.length-1
+// while(i >=  0 ){
+//         str1 += str[i]
+//         i--
+// }
+// console.log("String after reversing:" +str1);
+
+
+        // 18) Write a program that display largest integer among 10 Integers.
