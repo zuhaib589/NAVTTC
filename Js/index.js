@@ -185,15 +185,23 @@
 // ****
 // *****   Design a pattern
 
-let Staric= "";
-for (let i =5 ; i>=1; i--)
-    {
-        console.log(Staric = Staric + "*"); 
-        console.log(Staric = Staric + "*"); 
-    }
+// let Staric= "";
+// for (let i =5 ; i>=1; i--)
+//     {
+//         console.log(Staric = Staric + "*"); 
+//         console.log(Staric = Staric + "*"); 
+//     }
 
-//  FUNCTIONS
+// //  FUNCTIONS
 
-function name(params) {
     
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction);
+
+// document.getElementById("demo").innerHTML = newArr;
+
+function myFunction(num) {
+  console.log( num * 10)
 }
+console.log(newArr);
+console.log(numbers);
