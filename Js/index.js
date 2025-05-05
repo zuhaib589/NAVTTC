@@ -192,16 +192,16 @@
 //         console.log(Staric = Staric + "*"); 
 //     }
 
-// //  FUNCTIONS
+
+// //  MAP METHOD
 
     
 const numbers = [65, 44, 12, 4];
-const newArr = numbers.map(myFunction);
+const newAr = numbers.map(myFunction);
 
-// document.getElementById("demo").innerHTML = newArr;
 
 function myFunction(num) {
-  console.log( num * 10)
+  return num * 10
 }
-console.log(newArr);
+console.log(newAr);
 console.log(numbers);
