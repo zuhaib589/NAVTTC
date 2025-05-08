@@ -221,11 +221,12 @@
 
             // FOR EACH 
 
- const numbers = [65, 44, 12, 4];
- const newAr = numbers.forEach(myFunction);
+//  const numbers = [65, 44, 12, 4];
+//  const newAr = numbers.forEach(myFunction);
  
- function myFunction(num) {
-   return num * 40
- }
-//  console.log(newAr);
- console.log(numbers);            
+//  function myFunction(num) {
+//   return num +2 
+    
+//  }
+// //  console.log(newAr);
+//  console.log(numbers);            
