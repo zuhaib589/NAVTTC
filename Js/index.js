@@ -196,12 +196,36 @@
 // //  MAP METHOD
 
     
-const numbers = [65, 44, 12, 4];
-const newAr = numbers.map(myFunction);
+// const numbers = [65, 44, 12, 4];
+// const newAr = numbers.map(myFunction);
 
 
-function myFunction(num) {
-  return num * 10
-}
-console.log(newAr);
-console.log(numbers);
+// function myFunction(num) {
+//   return num >40
+// }
+// console.log(newAr);
+// console.log(numbers);
+
+
+              // FILTER METHOD 
+
+
+// const numbers = [65, 44, 12, 4];
+// const newAr = numbers.filter(myFunction);
+
+// function myFunction(num) {
+//   return num >40
+// }
+// console.log(newAr);
+// console.log(numbers);
+
+            // FOR EACH 
+
+ const numbers = [65, 44, 12, 4];
+ const newAr = numbers.forEach(myFunction);
+ 
+ function myFunction(num) {
+   return num * 40
+ }
+//  console.log(newAr);
+ console.log(numbers);            
