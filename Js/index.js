@@ -230,3 +230,7 @@
 //  }
 // //  console.log(newAr);
 //  console.log(numbers);            
+// ......
+
+
+console.log("zuhaib");
