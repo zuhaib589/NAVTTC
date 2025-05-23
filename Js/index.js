@@ -233,8 +233,14 @@
 // ......
 
 
-console.log("zuhaib");
-console.log("zuhaib");
+// console.log("zuhaib");
+// console.log("zuhaib");
 
-console.log("zuhaib");
-console.log("zuhaib");
+// console.log("zuhaib");
+// console.log("zuhaib");
+
+ console.log([] ==! []);
+ a=[1,2,3]
+ b=[2]
+ console.log(typeof(a));
+ 
