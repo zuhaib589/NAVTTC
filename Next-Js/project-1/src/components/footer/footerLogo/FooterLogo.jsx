@@ -1,10 +1,11 @@
+import Link from "next/link"
 
 
 const FooterLogo = () => {
   return (
     <>
       <div>
-            <a href='/'><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class="w-36" /></a>
+            <Link href='/'><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" className="w-36" /></Link>
           </div>
     </>
   )

@@ -239,8 +239,38 @@
 // console.log("zuhaib");
 // console.log("zuhaib");
 
- console.log([] ==! []);
- a=[1,2,3]
- b=[2]
- console.log(typeof(a));
+//  console.log([] ==! []);
+//  a=[1,2,3]
+//  b=[2]
+//  console.log(typeof(a));
  
+// Even or Odd Counter in a Range
+// 💡 Overview
+// The program:
+// Asks the user for a starting and ending number.
+// Goes through each number in that range.
+// Counts how many are even and how many are odd.
+// Displays the results.
+// ✅ Covers
+// ✅ Python syntax
+// ✅ Variables
+// ✅ Operators (%, +)
+// ✅ Conditions (if)
+// ✅ Loops (for)
+
+let startingNumber=0
+let endingNumber=20
+let even=0
+let odd=0
+
+for (let i = startingNumber; i<= endingNumber ; i++  ){
+    if(i % 2 == 0 ){
+        even += 1
+    }
+    else{
+        odd += 1
+    }
+}
+
+console.log(`The total number of even from ${startingNumber} to ${endingNumber} are : ${even}`);
+console.log(`The total number of odd from ${startingNumber} to ${endingNumber} are : ${odd}`);
