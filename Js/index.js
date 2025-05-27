@@ -201,7 +201,7 @@
 
 
 // function myFunction(num) {
-//   return num >40
+//   return 
 // }
 // console.log(newAr);
 // console.log(numbers);
@@ -225,10 +225,11 @@
 //  const newAr = numbers.forEach(myFunction);
  
 //  function myFunction(num) {
-//   return num +2 
+//   console.log(num +2 );
+   
     
 //  }
-// //  console.log(newAr);
+//  console.log(newAr);
 //  console.log(numbers);            
 // ......
 
@@ -275,7 +276,7 @@ for (let i = startingNumber; i <= endingNumber ; i++  ){
 console.log(`The total number of even from ${startingNumber} to ${endingNumber} are : ${even}`);
 console.log(`The total number of odd from ${startingNumber} to ${endingNumber} are : ${odd}`);
 
-let h1= document.querySelector("h1");
-h1.onclick = ()=>{
-    alert("this is zuhaib")
-}
+// let h1= document.querySelector("h1");
+// h1.onclick = ()=>{
+//     alert("this is zuhaib")
+// }
