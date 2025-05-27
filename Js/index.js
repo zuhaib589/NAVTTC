@@ -258,12 +258,12 @@
 // ✅ Conditions (if)
 // ✅ Loops (for)
 
-let startingNumber=0
-let endingNumber=20
-let even=0
-let odd=0
+let startingNumber = 0
+let endingNumber = 120
+let even = 0
+let odd = 0
 
-for (let i = startingNumber; i<= endingNumber ; i++  ){
+for (let i = startingNumber; i <= endingNumber ; i++  ){
     if(i % 2 == 0 ){
         even += 1
     }
@@ -274,3 +274,8 @@ for (let i = startingNumber; i<= endingNumber ; i++  ){
 
 console.log(`The total number of even from ${startingNumber} to ${endingNumber} are : ${even}`);
 console.log(`The total number of odd from ${startingNumber} to ${endingNumber} are : ${odd}`);
+
+let h1= document.querySelector("h1");
+h1.onclick = ()=>{
+    alert("this is zuhaib")
+}
