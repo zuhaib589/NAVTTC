@@ -259,19 +259,19 @@
 // ✅ Conditions (if)
 // ✅ Loops (for)
 
-let startingNumber = 0
-let endingNumber = 120
-let even = 0
-let odd = 0
+// let startingNumber = 0
+// let endingNumber = 120
+// let even = 0
+// let odd = 0
 
-for (let i = startingNumber; i <= endingNumber ; i++  ){
-    if(i % 2 == 0 ){
-        even += 1
-    }
-    else{
-        odd += 1
-    }
-}
+// for (let i = startingNumber; i <= endingNumber ; i++  ){
+//     if(i % 2 == 0 ){
+//         even += 1
+//     }
+//     else{
+//         odd += 1
+//     }
+// }
 
 console.log(`The total number of even from ${startingNumber} to ${endingNumber} are : ${even}`);
 console.log(`The total number of odd from ${startingNumber} to ${endingNumber} are : ${odd}`);
